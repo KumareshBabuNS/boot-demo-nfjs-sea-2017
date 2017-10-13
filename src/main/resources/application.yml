@@ -1,0 +1,27 @@
+management:
+  security:
+    enabled: false
+
+greeting:
+  message: Hiya
+  
+info:
+  contact:
+    phone: 123-123-1234
+    email: support@gmail.com
+  fax: 321-321-3210
+  
+---
+spring:
+  profiles: joyzey
+  
+greeting:
+  message: Howz youz guyz doin, 
+  
+---
+spring:
+  profiles: tejas
+  
+greeting:
+  message: Yeehaw! 
+  
